@@ -27,8 +27,6 @@ info:
 servers:
   - url: https://api.example.com/staging
     description: staging
-  - url: https://api.example.com/production
-    description: Production
 
 security:
   - OAuth2:

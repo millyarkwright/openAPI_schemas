@@ -14,7 +14,7 @@ paths:
       tags:
         - pets
       parameters:
-        - name: X-Request-ID
+        - name: header-example-1
           in: header
           description: Unique request identifier
           required: true
@@ -52,7 +52,7 @@ paths:
       tags:
         - pets
       parameters:
-        - name: X-Request-ID
+        - name: header-example-2
           in: header
           description: Unique request identifier
           required: true
@@ -74,7 +74,7 @@ paths:
       tags:
         - pets
       parameters:
-        - name: X-Request-ID
+        - name: header-example-3
           in: header
           description: Unique request identifier
           required: true
